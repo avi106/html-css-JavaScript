@@ -2,13 +2,14 @@
 <html>
 
 <head> 
-    <title>The Generics</title>
+    <title>The Agnostic | About</title>
      <meta name="description" content="This is the description">
+     <Link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header class="main-header">
+        <nav class="nav main-nav">
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="store.html">STORE</a></li>
@@ -16,10 +17,11 @@
             </ul>
         </nav>
         <hr />
-        <h1>The Generics</h1>
+        <h1 class="band-name band-name-large">The Agnostic</h1>
     </header>
-    <section>
-        <h2>About</h2>
+    <section class="content-section container">
+        <h2 class="section-header">About</h2>
+        <img class="about-band-image" src="Images/Band Members.png" alt="Band Members" />
         <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -30,10 +32,15 @@
             of Letraset sheets containing Lorem Ipsum passages, and more recently
             with desktop publishing software like Aldus PageMaker including versions
             of Lorem Ipsum
-        </p>
-        <img src="Images/Band Members.png" alt="Band Members" />
-        <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text ever
+            since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five
+            centuries, but also the leap into electronic typesetting, remaining
+            essentially unchanged. It was popularised in the 1960s with the release
+            of Letraset sheets containing Lorem Ipsum passages, and more recently
+            with desktop publishing software like Aldus PageMaker including versions
+            of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text ever
             since the 1500s, when an unknown printer took a galley of type and
             scrambled it to make a type specimen book. It has survived not only five
@@ -44,27 +51,28 @@
             of Lorem Ipsum
         </p>
     </section>
-    <footer>
-            <h3>The Generics</h3>
-            <ul>
-                <li>
-                    <a href="https://www.youtube.com/">
-                        <img src="Images/YouTube Logo.png" alt="YouTube">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.spotify.com/">
-                        <img src="Images/Spotify Logo.png" alt="Spotify">
-                    </a>
-    
-                </li>
-                <li>
-                    <a href="https://www.facebook.com">
-                        <img src="Images/Facebook Logo.png" alt="Facebook">
-                    </a>
-                </li>
-            </ul>
-        </footer>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+                <h3 class="band-name band-name-small">The Agnostic</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com/">
+                            <img src="Images/YouTube Logo.png" alt="YouTube">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.spotify.com/">
+                            <img src="Images/Spotify Logo.png" alt="Spotify">
+                        </a>
+        
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com">
+                            <img src="Images/Facebook Logo.png" alt="Facebook">
+                        </a>
+                    </li>
+                </ul>
+    </div> 
+    </footer>
 </body>
-
 </html>
