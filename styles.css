@@ -257,13 +257,24 @@ html, body {
     width: 45%;
 }
 
+/* .cart-items {
+    margin-top: 10px;
+} */
+
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
 .cart-price {
     width: 20%;
     font-size: 1.2em;
     color: #333;
 }
 
-.car-quantity {
+.cart-quantity {
     width: 35%;
 }
 
@@ -273,21 +284,19 @@ html, body {
     font-size: 1.2em;
 }
 
-
 .cart-quantity-input {
-    height: 34px;
-    width: 50px;
-    border-radius: 5px;
-    border: 1px solid #56CCF2;
-    background-color: #eee;
-    color: #333;
-    padding: 0;
-    text-align: center;
-    font-size: 1.2em;
-    margin-right: 25px;
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56CCF2;
+  background-color: #eee;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
 }
 
-.cart-row:last-child {
+.cart-row:last-child .cart-column {
     border-bottom: 1px solid black;
 }
 
@@ -320,7 +329,7 @@ html, body {
     font-size: 1.75em;
 }
 
-.button-danger {
+.btn-danger {
     color:white;
     background-color: #EB5757;
     border: none;
@@ -328,6 +337,8 @@ html, body {
     font-weight: bold;
 }
 
-.button-danger:hover {
+.btn-danger:hover {
     background-color: #CC4C4C;
 }
+
+
